@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DreamCatcher</string>
+    <string name="dreamcatcher">DreamCatcher</string>
+    <string name="app_description">Your personal Dream Tracker App</string>
+    <string name="about">Enter The dreams you had and we will track it for you</string>
+    <string name="go">Let\'s Start</string>
+    <string name="start">Start</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="info_message">Your Dreams Comes Here Tap The Button Below To Add A New Dream</string>
+    <string name="add_dream_info">Tell Us About Your Dream Below</string>
+    <string name="dream_title">Dream Title</string>
+    <string name="Label">Label</string>
+    <string name="your_dream">Your dream</string>
+    <string name="submit_dream">Submit Your Dream</string>
+    <string name="enter_dream_below">Enter Dream Below</string>
+    <string name="dream">Dream Label</string>
+</resources>
