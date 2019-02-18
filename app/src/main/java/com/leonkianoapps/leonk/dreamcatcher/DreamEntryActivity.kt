@@ -7,6 +7,7 @@ import android.os.Bundle
 import android.text.TextUtils
 import android.util.Log
 import android.view.MenuItem
+import android.widget.EditText
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_dream_entry.*
 
@@ -44,7 +45,7 @@ class DreamEntryActivity : AppCompatActivity() {
 
         }
 
-        if (TextUtils.isEmpty(infor_dream.text.toString())) {   //if email is empty show error message
+        if (TextUtils.isEmpty(dreamEditText.text.toString())) {   //if dream is empty show error message
 
 
             Toast.makeText(applicationContext,"Please enter your Dream",Toast.LENGTH_LONG).show()
@@ -52,7 +53,6 @@ class DreamEntryActivity : AppCompatActivity() {
             return //to stop the method here
 
         }
-
         //Here information is valid/Good insert data to DB
 
         val label = label_TextField.text.toString()
